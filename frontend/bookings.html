@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <form onsubmit="submitBooking(event)">
+    <input id="bookingName" placeholder="Name"><br><br>
+    <input id="bookingEmail" placeholder="Email"><br><br>
+    <input id="bookingPhone" placeholder="Phone"><br><br>
+    <select id="bookingType">
+      <option>Wedding</option>
+      <option>Event</option>
+      <option>Photoshoot</option>
+    </select><br><br>
+    <input type="date" id="bookingDate"><br><br>
+    <textarea id="bookingMessage"></textarea><br><br>
+    <button>Submit</button>
+  </form>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
